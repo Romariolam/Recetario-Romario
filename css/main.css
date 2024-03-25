@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: #fff59d;
+    margin-top: 0%;
+    max-width: 1200px;
+    margin: auto;
+}
+header{
+    background-color: #1b3039;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+.imagen-logo{
+    width: 100px;
+    cursor: pointer;
+}
+.nav-bar{
+    list-style: none;
+}
+.nav-links{
+    display: inline-block;
+    padding: 0 20px;
+}
+.nav-links a{
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+}
+.nav-links:hover{
+    color: #ffbc0e;
+    transform: scale(1.1);
+}
+.button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.button:hover{
+    background-color: #e2f1f8;
+    color: #ffbc0e;
+    transform: scale(1.1);
+}
+.encabezado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../Assets/Imagenes/tabla-de-cocina.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.texto-encabezado{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+}
+.pagina-principal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.imagenes-galeria{
+    width: 200px;
+}
+.galeria{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    justify-content: space-around;
+    background-color: #ffbc0e;
+    margin: 20px;
+    padding-top: 35px;
+    width: 700px;
+}
+.galery-box{
+    width: 250px;
+    height: 250px;
+    margin: 15px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.indice{
+    margin: 20px;
+    width: fit-content;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.menu-indice{
+    list-style: none;
+    padding-left: 0%;
+}
+.footer{
+    position: absolute;
+    background-color: #1b3039;
+    color: #ffffff;
+    right: 0%;
+    left: 0%;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
